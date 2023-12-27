@@ -6,7 +6,7 @@
 if [ ! -d ".content" ]
 then
   echo "No cached '.content' directory found. Fetching the latest data..."
-  git clone https://github.com/genicsblog/genicsblog.com .content -q
+  git clone https://github.com/Cermatedu/Blogs .content -q
 fi
 
 DIFF_GEM=$(diff -q Gemfile .content/Gemfile)
